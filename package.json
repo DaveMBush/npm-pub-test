@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "publish": "node tools/scripts/publish.js",
+    "publish": "node tools/scripts/publish.js"
   },
   "private": true,
   "dependencies": {
