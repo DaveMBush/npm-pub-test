@@ -45,7 +45,7 @@ jobs:
           # use from the github release
           VERSION=${{ github.event.inputs.version || github.ref_name }}
           npx nx release version --specifier $VERSION
-          npx nx release publish
+          npx nx release publish --first-release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
