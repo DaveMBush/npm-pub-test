@@ -8,4 +8,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './npm-test.component.html',
   styleUrl: './npm-test.component.css',
 })
-export class NpmTestComponent {}
+export class NpmTestComponent {
+  // comment to force change
+}
