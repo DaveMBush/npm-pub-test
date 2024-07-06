@@ -15,6 +15,14 @@
     "sharedGlobals": []
   },
   "targetDefaults": {
+    "nx-release-publish": {
+      "dependsOn": [
+        "build"
+      ],
+      "options": {
+        "packageRoot": "{workspaceRoot}/dist/{projectName}"
+      }
+    },
     "@angular-devkit/build-angular:application": {
       "cache": true,
       "dependsOn": ["^build"],
